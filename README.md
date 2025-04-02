@@ -70,7 +70,7 @@ certbot certonly \
   -a certbot-dns-namecheap:dns-namecheap \
   --certbot-dns-namecheap:dns-namecheap-credentials=/namecheap.ini \
   --agree-tos \
-  -email "your@mail.com" \
+  --email "your@mail.com" \
   -d example.com \
   --test-cert
   ```
